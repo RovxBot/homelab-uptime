@@ -56,6 +56,37 @@ sites:
     url: https://grimguzzler.cooked.beer
     type: globalping
     location: sydney
+  - name: Invoice Ninja
+    url: https://invoice.cooked.beer
+    type: globalping
+    location: sydney
+    headers:
+      - "Cf-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
+      - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
+  - name: Immich
+    url: https://immich.cooked.beer
+    type: globalping
+    location: sydney
+  - name: Jellyfin
+    url: https://jellyfin.cooked.beer
+    type: globalping
+    location: sydney
+  - name: WotLK Authserver
+    check: tcp-ping
+    url: "168.138.2.24"
+    port: 3724
+    type: globalping
+    location: sydney
+  - name: WotLK Worldserver
+    check: tcp-ping
+    url: "168.138.2.24"
+    port: 8443
+    type: globalping
+    location: sydney
+  - name: Status Page
+    url: https://rovxbot.github.io/homelab-uptime
+    type: globalping
+    location: sydney
 
 status-website:
   # Use GitHub Pages until a dedicated status hostname is configured.
