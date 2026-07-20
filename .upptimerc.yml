@@ -71,16 +71,10 @@ sites:
     url: https://jellyfin.cooked.beer
     type: globalping
     location: sydney
-  - name: WotLK Authserver
+  - name: WotLK Realm
     check: tcp-ping
-    url: "168.138.2.24"
+    url: grim.cooked.beer
     port: 3724
-    type: globalping
-    location: sydney
-  - name: WotLK Worldserver
-    check: tcp-ping
-    url: "168.138.2.24"
-    port: 8443
     type: globalping
     location: sydney
   - name: Status Page
