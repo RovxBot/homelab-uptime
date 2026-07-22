@@ -1,7 +1,7 @@
 url: https://jellyfin.cooked.beer
-status: up
-code: 302
-responseTime: 78
-lastUpdated: 2026-07-22T00:00:13.557Z
+status: down
+code: 502
+responseTime: 88
+lastUpdated: 2026-07-22T09:35:07.836Z
 startTime: 2026-07-20T10:23:03.416Z
 generator: Upptime <https://github.com/upptime/upptime>
