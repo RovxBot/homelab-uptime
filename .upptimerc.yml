@@ -9,49 +9,40 @@ skipTopicsUpdate: true
 skipHomepageUpdate: true
 
 sites:
-  - name: Homepage
+  - name: Homepage Access Gate
     url: https://homepage.cooked.beer
     type: globalping
     location: sydney
-    headers:
-      - "Cf-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
-      - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
-  - name: Homepage Assets
+    expectedStatusCodes: [302]
+  - name: Homepage Assets Access Gate
     url: https://homepage.cooked.beer/assets/998981.jpg
     type: globalping
     location: sydney
+    expectedStatusCodes: [302]
   - name: Vaultwarden
     url: https://vault.cooked.beer
     type: globalping
     location: sydney
-  - name: Radarr
+  - name: Radarr Access Gate
     url: https://radarr.cooked.beer
     type: globalping
     location: sydney
-    headers:
-      - "Cf-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
-      - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
-  - name: Sonarr
+    expectedStatusCodes: [302]
+  - name: Sonarr Access Gate
     url: https://sonarr.cooked.beer
     type: globalping
     location: sydney
-    headers:
-      - "Cf-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
-      - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
-  - name: Prowlarr
+    expectedStatusCodes: [302]
+  - name: Prowlarr Access Gate
     url: https://prowlarr.cooked.beer
     type: globalping
     location: sydney
-    headers:
-      - "Cf-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
-      - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
-  - name: SABnzbd
+    expectedStatusCodes: [302]
+  - name: SABnzbd Access Gate
     url: https://sabnzbd.cooked.beer
     type: globalping
     location: sydney
-    headers:
-      - "Cf-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
-      - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
+    expectedStatusCodes: [302]
   - name: Jellyseerr
     url: https://jellyseerr.cooked.beer
     type: globalping
@@ -60,9 +51,6 @@ sites:
     url: https://invoice.cooked.beer
     type: globalping
     location: sydney
-    headers:
-      - "Cf-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
-      - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
   - name: Immich
     url: https://immich.cooked.beer
     type: globalping
@@ -88,7 +76,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Cooked Beer Homelab Status
   introTitle: "**Cooked Beer homelab status**"
-  introMessage: Public service checks run from GitHub Actions. Internal service and cluster health are monitored separately by Gatus in the homelab.
+  introMessage: Public service checks run from GitHub Actions. Access-gate checks validate the expected unauthenticated redirect, not authenticated application use; internal service and cluster health are monitored separately by Gatus in the homelab.
   navbar:
     - title: Status
       href: /
