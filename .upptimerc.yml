@@ -7,6 +7,8 @@ skipDeleteIssues: true
 skipDescriptionUpdate: true
 skipTopicsUpdate: true
 skipHomepageUpdate: true
+# Do not expose repository secrets to public Globalping measurements.
+secrets: []
 
 sites:
   - name: Homepage Access Gate
