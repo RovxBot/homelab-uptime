@@ -16,6 +16,10 @@ sites:
     headers:
       - "Cf-Access-Client-Id: $CF_ACCESS_CLIENT_ID"
       - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
+  - name: Homepage Assets
+    url: https://homepage.cooked.beer/assets/998981.jpg
+    type: globalping
+    location: sydney
   - name: Vaultwarden
     url: https://vault.cooked.beer
     type: globalping
@@ -50,10 +54,6 @@ sites:
       - "Cf-Access-Client-Secret: $CF_ACCESS_CLIENT_SECRET"
   - name: Jellyseerr
     url: https://jellyseerr.cooked.beer
-    type: globalping
-    location: sydney
-  - name: Grimguzzler Registration
-    url: https://grimguzzler.cooked.beer
     type: globalping
     location: sydney
   - name: Invoice Ninja
