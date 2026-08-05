@@ -1,7 +1,7 @@
 url: https://vault.cooked.beer
-status: up
-code: 200
-responseTime: 93
-lastUpdated: 2026-08-05T00:11:09.955Z
+status: down
+code: 530
+responseTime: 33
+lastUpdated: 2026-08-05T09:49:11.280Z
 startTime: 2026-07-19T08:53:47.766Z
 generator: Upptime <https://github.com/upptime/upptime>
