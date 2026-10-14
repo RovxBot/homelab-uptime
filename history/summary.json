@@ -40,11 +40,11 @@
     "url": "https://vault.cooked.beer",
     "icon": "https://icons.duckduckgo.com/ip3/vault.cooked.beer.ico",
     "slug": "vaultwarden",
-    "status": "up",
+    "status": "down",
     "uptime": "99.82%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.82%",
     "time": 128,
     "timeDay": 140,
@@ -53,7 +53,8 @@
     "timeYear": 128,
     "dailyMinutesDown": {
       "2026-07-19": 7,
-      "2026-08-05": 216
+      "2026-08-05": 216,
+      "2026-10-14": 2
     }
   },
   {
@@ -154,10 +155,10 @@
     "url": "https://invoice.cooked.beer",
     "icon": "https://icons.duckduckgo.com/ip3/invoice.cooked.beer.ico",
     "slug": "invoice-ninja",
-    "status": "up",
+    "status": "down",
     "uptime": "99.83%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.83%",
     "time": 216,
@@ -166,7 +167,8 @@
     "timeMonth": 215,
     "timeYear": 216,
     "dailyMinutesDown": {
-      "2026-08-05": 216
+      "2026-08-05": 216,
+      "2026-10-14": 1
     }
   },
   {
@@ -174,18 +176,20 @@
     "url": "https://immich.cooked.beer",
     "icon": "https://icons.duckduckgo.com/ip3/immich.cooked.beer.ico",
     "slug": "immich",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 156,
-    "timeDay": 135,
-    "timeWeek": 128,
-    "timeMonth": 132,
-    "timeYear": 156,
-    "dailyMinutesDown": {}
+    "time": 262,
+    "timeDay": 5117,
+    "timeWeek": 1375,
+    "timeMonth": 453,
+    "timeYear": 262,
+    "dailyMinutesDown": {
+      "2026-10-14": 0
+    }
   },
   {
     "name": "Jellyfin",
@@ -193,11 +197,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/jellyfin.cooked.beer.ico",
     "slug": "jellyfin",
     "status": "up",
-    "uptime": "99.73%",
+    "uptime": "99.74%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.73%",
+    "uptimeYear": "99.74%",
     "time": 127,
     "timeDay": 85,
     "timeWeek": 91,
