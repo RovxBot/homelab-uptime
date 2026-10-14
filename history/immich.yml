@@ -1,7 +1,7 @@
 url: https://immich.cooked.beer
-status: up
-code: 200
-responseTime: 135
-lastUpdated: 2026-10-14T01:46:34.386Z
+status: down
+code: 502
+responseTime: 10098
+lastUpdated: 2026-10-14T21:56:30.233Z
 startTime: 2026-07-20T10:23:01.511Z
 generator: Upptime <https://github.com/upptime/upptime>
