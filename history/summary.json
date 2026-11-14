@@ -156,22 +156,22 @@
     "url": "https://invoice.cooked.beer",
     "icon": "https://icons.duckduckgo.com/ip3/invoice.cooked.beer.ico",
     "slug": "invoice-ninja",
-    "status": "down",
-    "uptime": "99.63%",
-    "uptimeDay": "86.00%",
-    "uptimeWeek": "98.00%",
-    "uptimeMonth": "99.07%",
-    "uptimeYear": "99.63%",
+    "status": "up",
+    "uptime": "99.53%",
+    "uptimeDay": "73.88%",
+    "uptimeWeek": "96.27%",
+    "uptimeMonth": "98.67%",
+    "uptimeYear": "99.53%",
     "time": 228,
-    "timeDay": 0,
-    "timeWeek": 227,
-    "timeMonth": 265,
+    "timeDay": 236,
+    "timeWeek": 228,
+    "timeMonth": 264,
     "timeYear": 228,
     "dailyMinutesDown": {
       "2026-08-05": 216,
       "2026-10-15": 83,
       "2026-10-14": 124,
-      "2026-11-14": 202
+      "2026-11-14": 376
     }
   },
   {
